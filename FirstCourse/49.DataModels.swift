@@ -22,7 +22,7 @@ struct UserModels: Identifiable {
 }
 
 struct DataModelsBootcamp: View {
-    //MARK:  2) ✅ Присвоили  @State var users массив [UserModels] и далее в пустой массаив [] добавляем инициализацию UserModels( пишем в пустом мааасиве UserModels и открываем скобки и инициальзатор автоматически вставит все вводные данные из модели )
+    //MARK:  2) ✅ Создаем @State var users массив данных [UserModels] и далее присваиваем пустой массив [], далее в пустой массаив [] добавляем инициализацию UserModels( пишем в пустом мааасиве UserModels и открываем скобки и инициальзатор автоматически вставит все вводные данные из модели )
     @State var users: [UserModels] = [
         UserModels(displayName: "Nick", userName: "nick123", followersCount: 100, isVerified: true),
         UserModels(displayName: "Emily", userName: "itsemily1995", followersCount: 55, isVerified: false),
